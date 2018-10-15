@@ -1,8 +1,6 @@
-# pg_view
+#Flutter Perallax Scroll
 
-A new Flutter project.
+a simple peralax scroll project for flutter
 
-## Getting Started
+## Preview
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).

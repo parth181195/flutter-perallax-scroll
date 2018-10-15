@@ -198,16 +198,11 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                         ? getMappedValue(20.0, 100.0, -120.0, -10.0, pos)
                         : getMappedValue(20.0, 100.0, -10.0, 120.0, pos),
                     bottom: 100.0,
-                    child: Opacity(
-                      opacity: index != currentPage
-                          ? getMappedValue(20.0, 100.0, 0.0, 1.0, pos)
-                          : getMappedValue(20.0, 100.0, 1.0, 00.0, pos),
-                      child: Image.asset(
-                        '${fruits[index]['image']}',
-                        height: 240.0,
-                        width: 240.0,
-                        fit: BoxFit.contain,
-                      ),
+                    child: Image.asset(
+                      '${fruits[index]['image']}',
+                      height: 240.0,
+                      width: 240.0,
+                      fit: BoxFit.contain,
                     ),
                   ),
                 ],
