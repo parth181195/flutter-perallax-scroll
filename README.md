@@ -1,4 +1,4 @@
-#Flutter Perallax Scroll
+# Flutter Perallax Scroll
 
 a simple peralax scroll project for flutter
 
